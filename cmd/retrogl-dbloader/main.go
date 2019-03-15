@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rippinrobr/baseball-stats-db/internal/platform/db"
-	"github.com/rippinrobr/baseball-stats-db/internal/retrosheet"
+	"retrosheet-loader/internal/platform/db"
+	"retrosheet-loader/internal/retrosheet"
 )
 
 // init is called before main. We are using init to customize logging output.
